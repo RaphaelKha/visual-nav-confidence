@@ -1,0 +1,223 @@
+{
+ "failure_image_only": {
+  "pooled": {
+   "auc": 0.5481433984081878,
+   "positives": 98,
+   "n": 6734,
+   "base_rate": 0.014553014553014554
+  },
+  "per_sequence": {
+   "MH_01": {
+    "auc": NaN,
+    "positives": 0,
+    "n": 1819,
+    "recall": NaN,
+    "precision": 0.0,
+    "flagged": 0.3336998350742166
+   },
+   "MH_02": {
+    "auc": NaN,
+    "positives": 0,
+    "n": 1500,
+    "recall": NaN,
+    "precision": 0.0,
+    "flagged": 0.378
+   },
+   "MH_03": {
+    "auc": 0.668520007145409,
+    "positives": 72,
+    "n": 1316,
+    "recall": 0.18055555555555555,
+    "precision": 0.06914893617021277,
+    "flagged": 0.14285714285714285
+   },
+   "MH_04": {
+    "auc": 0.7801260022909507,
+    "positives": 18,
+    "n": 988,
+    "recall": 0.8888888888888888,
+    "precision": 0.02457757296466974,
+    "flagged": 0.6589068825910931
+   },
+   "MH_05": {
+    "auc": 0.943336355394379,
+    "positives": 8,
+    "n": 1111,
+    "recall": 1.0,
+    "precision": 0.01238390092879257,
+    "flagged": 0.5814581458145814
+   }
+  },
+  "features": [
+   "brightness",
+   "sharpness"
+  ]
+ },
+ "failure_with_matches": {
+  "pooled": {
+   "auc": 0.9218394410205312,
+   "positives": 98,
+   "n": 6734,
+   "base_rate": 0.014553014553014554
+  },
+  "per_sequence": {
+   "MH_01": {
+    "auc": NaN,
+    "positives": 0,
+    "n": 1819,
+    "recall": NaN,
+    "precision": NaN,
+    "flagged": 0.0
+   },
+   "MH_02": {
+    "auc": NaN,
+    "positives": 0,
+    "n": 1500,
+    "recall": NaN,
+    "precision": 0.0,
+    "flagged": 0.017333333333333333
+   },
+   "MH_03": {
+    "auc": 0.9154943729903537,
+    "positives": 72,
+    "n": 1316,
+    "recall": 0.2361111111111111,
+    "precision": 0.29310344827586204,
+    "flagged": 0.044072948328267476
+   },
+   "MH_04": {
+    "auc": 0.9316723940435281,
+    "positives": 18,
+    "n": 988,
+    "recall": 0.7777777777777778,
+    "precision": 0.0915032679738562,
+    "flagged": 0.1548582995951417
+   },
+   "MH_05": {
+    "auc": 0.9870806890299184,
+    "positives": 8,
+    "n": 1111,
+    "recall": 1.0,
+    "precision": 0.041666666666666664,
+    "flagged": 0.17281728172817282
+   }
+  },
+  "features": [
+   "brightness",
+   "sharpness",
+   "log_matches"
+  ]
+ },
+ "outlier_all": {
+  "pooled": {
+   "auc": 0.920770436908685,
+   "positives": 92,
+   "n": 6636,
+   "base_rate": 0.013863773357444244
+  },
+  "per_sequence": {
+   "MH_01": {
+    "auc": 0.7716253443526171,
+    "positives": 4,
+    "n": 1819,
+    "recall": 0.0,
+    "precision": 0.0,
+    "flagged": 0.007146783947223749
+   },
+   "MH_02": {
+    "auc": 0.9826435246995995,
+    "positives": 2,
+    "n": 1500,
+    "recall": 0.5,
+    "precision": 0.022727272727272728,
+    "flagged": 0.029333333333333333
+   },
+   "MH_03": {
+    "auc": 0.8892091515042335,
+    "positives": 61,
+    "n": 1244,
+    "recall": 0.7868852459016393,
+    "precision": 0.17712177121771217,
+    "flagged": 0.21784565916398713
+   },
+   "MH_04": {
+    "auc": 0.8863799878244507,
+    "positives": 19,
+    "n": 970,
+    "recall": 0.7368421052631579,
+    "precision": 0.09333333333333334,
+    "flagged": 0.15463917525773196
+   },
+   "MH_05": {
+    "auc": 0.7719538134305682,
+    "positives": 6,
+    "n": 1103,
+    "recall": 0.0,
+    "precision": 0.0,
+    "flagged": 0.09972801450589303
+   }
+  },
+  "features": [
+   "log_matches",
+   "inlier_ratio",
+   "log_inliers",
+   "reproj_rms",
+   "coverage",
+   "brightness",
+   "sharpness"
+  ]
+ },
+ "outlier_inliers_only": {
+  "pooled": {
+   "auc": 0.931355971616881,
+   "positives": 92,
+   "n": 6636,
+   "base_rate": 0.013863773357444244
+  },
+  "per_sequence": {
+   "MH_01": {
+    "auc": 0.921969696969697,
+    "positives": 4,
+    "n": 1819,
+    "recall": 0.0,
+    "precision": 0.0,
+    "flagged": 0.0005497526113249038
+   },
+   "MH_02": {
+    "auc": 0.977803738317757,
+    "positives": 2,
+    "n": 1500,
+    "recall": 0.5,
+    "precision": 0.0625,
+    "flagged": 0.010666666666666666
+   },
+   "MH_03": {
+    "auc": 0.9058381719163561,
+    "positives": 61,
+    "n": 1244,
+    "recall": 0.9180327868852459,
+    "precision": 0.1702127659574468,
+    "flagged": 0.2644694533762058
+   },
+   "MH_04": {
+    "auc": 0.8916652830815208,
+    "positives": 19,
+    "n": 970,
+    "recall": 0.7368421052631579,
+    "precision": 0.09859154929577464,
+    "flagged": 0.1463917525773196
+   },
+   "MH_05": {
+    "auc": 0.7711182011546642,
+    "positives": 6,
+    "n": 1103,
+    "recall": 0.5,
+    "precision": 0.0234375,
+    "flagged": 0.11604714415231188
+   }
+  },
+  "features": [
+   "log_inliers"
+  ]
+ }
+}

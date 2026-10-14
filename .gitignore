@@ -1,0 +1,12 @@
+# EuRoC data (not redistributed; see README) and caches derived from it
+data/
+# per-frame relocalisation outputs contain EuRoC ground-truth positions: regenerate them locally
+results/reloc/
+results/reloc_loo/
+results/reloc_loo_degraded/
+# local environment
+.venv/
+.claude/
+__pycache__/
+.pytest_cache/
+.DS_Store
